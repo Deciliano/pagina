@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: sans-serif;
+    font-family: 14px SST, helvetica, arial, sans-serif;;
     font-size: 62%;  
 }
 
@@ -13,15 +13,21 @@ a{
     text-decoration: none;
 }
 
-/*Container*/
+/*Container - comporta so filhos: #content-img e #content-text*/
 
 .flex-container{
     background-color: #201b2c;
     width: 100vw;
-    height: 80vh;
+    min-height: 80vh;
     align-items: center;
     display: flex;
     justify-content: center;
+}
+
+@media(max-width: 1024px){
+    .flex-container{
+        flex-direction: column;
+    }
 }
 
 #content-img{
@@ -30,16 +36,16 @@ a{
     justify-content: center;
     align-items: center;
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
 }
 
 
-@media(max-width: 700px){
+@media(max-width: 1024px){
     #content-img{
-        margin-top: 15vh;
-        width: 40vw;
+        margin-top: 10vh;
     }
 }
+
 
 .content-img{
     display: flex;
@@ -60,12 +66,13 @@ a{
     justify-content: center;
 }
 
-@media(max-width: 1023px){
+@media(max-width: 1024px){
     #content-text h1{
         font-size: 1.8rem;
     }
 }
 
+/*
 @media(max-width: 945px){
     #content-text h1{
         margin-top: 5vh;
@@ -89,10 +96,10 @@ a{
 @media(max-width:671px){
     #content-text
 }
+*/
 
 .content-text h1{
     font-size: 2.6rem;
-    margin: 15px 15px;
     text-align: center;
 }
 
@@ -104,7 +111,7 @@ a{
 .content-text{
     font-size: 1.6rem;
     display: flex;
-    width: 30vw;
+    width: 40vw;
     height: 60vh;
     align-items: center;
     justify-content: center;
@@ -114,6 +121,7 @@ a{
     border-radius: 6%;
 }
 
+/*
 @media (max-width: 850px){
     .content-text{
         font-size: 1.3rem;
@@ -124,12 +132,12 @@ a{
     .content-text{
         font-size: .5rem;
     }
-}
+}*/
 
 .content-text:hover{
     border: 2px solid blue;
 }
-
+/*
 @media (max-width:700px){
 
     body{
@@ -149,6 +157,7 @@ a{
         height: 65vh;
     }
 }
+*/
 
 /*Footer*/
 

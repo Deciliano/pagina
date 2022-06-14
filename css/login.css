@@ -44,12 +44,12 @@ a{
 .left-login-image{
     width: 35vw;
 }
-
+/*
 @media(max-width:720px){
     .left-login-image{
         min-width: 35vh;
     }
-}
+}*/
 
 .right-login{
     width: 50vw;
