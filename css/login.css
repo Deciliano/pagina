@@ -30,7 +30,7 @@ a{
 
 .left-login{
     width: 50vw;
-    height: 80vh;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,12 +44,12 @@ a{
 .left-login-image{
     width: 35vw;
 }
-/*
+
 @media(max-width:720px){
     .left-login-image{
-        min-width: 35vh;
+        min-width: 25vh;
     }
-}*/
+}
 
 .right-login{
     width: 50vw;
@@ -57,11 +57,14 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 @media(max-width:720px){
     .card-login{
         min-width: 50vw;
+        height: 60vh;
+        width: 50vw;
     }
 }
 
