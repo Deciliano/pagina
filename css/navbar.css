@@ -12,7 +12,8 @@ a{
 
 header{
     display: flex;
-    min-height: 70px;
+    min-height: 10vh;
+    height: 10vh;
     background-color: blueviolet;
     justify-content: space-between;
     align-items: center;
