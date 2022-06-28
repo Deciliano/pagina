@@ -1,10 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body .cards{
+.cards{
     font-size: 62%;
     font-family: sans-serif;
     background-color: #201b2c;
@@ -128,24 +122,4 @@ body .cards{
     font-size: 15px;
     line-height: 30px;
     font-weight: 600;
-}
-
-/*Footer*/
-
-footer{
-    display: grid;
-    font-size: 1.2rem;
-    color: white;
-    text-align: center;
-    background-color: black;
-    padding: 30px;
-}
-
-footer a{
-    font-size: 1.2rem;
-    color: white;
-}
-
-footer a:hover{
-    color: green;
 }

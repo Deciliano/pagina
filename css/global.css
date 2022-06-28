@@ -1,19 +1,13 @@
-/*Header*/
-
-body{
-    font-family: sans-serif;
-}
+/* ----- navbar ----- */
 
 a{
     font-size: 62%;
-    text-decoration: none;
     color: black;
 }
 
 header{
     display: flex;
-    min-height: 10vh;
-    height: 10vh;
+    min-height: 9.7vh;
     background-color: blueviolet;
     justify-content: space-between;
     align-items: center;
@@ -47,7 +41,7 @@ header{
 }
 
 .logo img{
-    height: 50px;
+    height: 7vh;
 }
 
 nav a{
@@ -67,6 +61,26 @@ nav a:hover{
     }
 
     nav{
-        padding: 10px 0;
+        padding-bottom: 10px 0;
     }
+}
+
+/* ------ footer ------ */
+
+footer{
+    min-height: 10vh;
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 30px;
+}
+
+footer a{
+    font-size: 1.2rem;
+    color: white;
+}
+
+footer a:hover{
+    color: green;
 }

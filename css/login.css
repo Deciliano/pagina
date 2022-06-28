@@ -1,21 +1,6 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    font-size: 62%;
-    font-family: sans-serif;  
-}
-
-a{
-    text-decoration: none;
-}
-
 .main-login{
     display: flex;
-    width: 100vw;
+    width: 100%;
     min-height: 80vh;
     background-color: #201b2c;
     justify-content: center; /*Eixo-x*/
@@ -29,8 +14,8 @@ a{
 }
 
 .left-login{
-    width: 50vw;
-    height: 50vh;
+    width: 50%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,8 +37,8 @@ a{
 }
 
 .right-login{
-    width: 50vw;
-    height: 80vh;
+    width: 50%;
+    height: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,9 +47,8 @@ a{
 
 @media(max-width:720px){
     .card-login{
-        min-width: 50vw;
-        height: 60vh;
-        width: 50vw;
+        height: 50%;
+        width: 50%;
     }
 }
 
